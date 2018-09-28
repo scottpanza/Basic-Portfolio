@@ -1,0 +1,23 @@
+.header a.logo {
+    background-color: #4aaaa5;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    float: left;
+    border-radius: 6px;
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 18px 10px;
+}
+.header-right {
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 12px;
+    }
+
+a:hover {
+    background-color: #4aaaa5
+}
