@@ -1,4 +1,4 @@
-.header a.logo {
+.header h1 {
     background-color: #4aaaa5;
     font-size: 25px;
     font-weight: bold;
@@ -8,6 +8,10 @@
     line-height: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 18px 10px;
+    border-color: #cccccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
 }
 .header-right {
     float: right;
@@ -16,8 +20,26 @@
     font-weight: bold;
     border-radius: 4px;
     padding: 12px;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;    
     }
 
 a:hover {
-    background-color: #4aaaa5
+    background-color: #4aaaa5;
+}
+.wrapper {
+    padding: 150px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
 }
